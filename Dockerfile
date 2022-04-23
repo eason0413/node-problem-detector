@@ -13,6 +13,7 @@
 # limitations under the License.
 
 ARG BASEIMAGE
+BASEIMAGE=busybox:1.35.0
 FROM ${BASEIMAGE}
 
 LABEL maintainer="Random Liu <lantaol@google.com>"
