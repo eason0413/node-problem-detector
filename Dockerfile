@@ -12,9 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ARG BASEIMAGE
-BASEIMAGE=busybox:1.35.0
-FROM ${BASEIMAGE}
+
+FROM busybox:1.35.0
 
 LABEL maintainer="Random Liu <lantaol@google.com>"
 
